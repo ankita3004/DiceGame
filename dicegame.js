@@ -1,5 +1,10 @@
-var p1=prompt("Enter Player1's name");
-var p2=prompt("Enter Player2's name");
+var p1="Player 1";
+var p2="Player 2";
+
+p1=prompt("Enter Player1's name");
+p2=prompt("Enter Player2's name");
+
+
 document.querySelectorAll("p")[0].innerHTML=p1;
 document.querySelectorAll("p")[1].innerHTML=p2;
 
